@@ -1,3 +1,5 @@
+const { default: gsap } = require("gsap");
+
 gsap.to('.card', {
   opacity: 1,
   scale: 1,
@@ -11,3 +13,4 @@ gsap.to('.card', {
    })
   }
 });
+gsap.f
